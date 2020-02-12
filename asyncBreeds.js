@@ -10,7 +10,7 @@ const breedDetailsFromFile = function(breed, functionToRunWhenThingsAreDone) {
     if (!error) {
       functionToRunWhenThingsAreDone(data);
     } 
-    else {
+    else { // note-to self: I need to understand what went correct here by adding the else.
       functionToRunWhenThingsAreDone(data);
     }
     // if (!error) return data; // old faulty code returning UNDEFINED 
